@@ -1,0 +1,17 @@
+.scanner__phone {
+  max-width: 465px;
+  object-fit: contain;
+  object-position: top;
+}
+
+@media screen and (max-width: 970px) {
+  .scanner__phone {
+    max-width: 325px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .scanner__phone {
+    max-width: 320px;
+  }
+}

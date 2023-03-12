@@ -1,0 +1,11 @@
+.design__line_black {
+  width: 192px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 970px) {
+  .design__line_black{
+    width: 295px;
+  }
+}

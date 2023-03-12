@@ -1,0 +1,73 @@
+@import url(./vendor/normalize.css);
+
+@import url(./blocks/accessories/accessories.css);
+@import url(./blocks/accessories/__card/accessories__card.css);
+@import url(./blocks/accessories/__line/accessories__line.css);
+@import url(./blocks/accessories/__title/accessories__title.css);
+
+@import url(./blocks/apps/__icon/apps__icon.css);
+@import url(./blocks/apps/__item/apps__item.css);
+@import url(./blocks/apps/__list/apps__list.css);
+@import url(./blocks/apps/__text/apps__text.css);
+
+@import url(./blocks/black-line/black-line.css);
+
+@import url(./blocks/block/__title/block__title.css);
+
+@import url(./blocks/body/body.css);
+
+@import url(./blocks/design/__card/design__card.css);
+@import url(./blocks/design/__card/_black/design__card_black.css);
+@import url(./blocks/design/__card/_l/design__card_l.css);
+@import url(./blocks/design/__card/_white/design__card_white.css);
+@import url(./blocks/design/__cards/design__cards.css);
+@import url(./blocks/design/__image/design__image.css);
+@import url(./blocks/design/__image/_black/design__image_black.css);
+@import url(./blocks/design/__image/_icon/design__image_icon.css);
+@import url(./blocks/design/__line/design__line.css);
+@import url(./blocks/design/__line/_black/design__line_black.css);
+@import url(./blocks/design/__line/_white/design__line_white.css);
+@import url(./blocks/design/__text/design__text.css);
+@import url(./blocks/design/__text/_l/design__text_l.css);
+@import url(./blocks/design/__text/_left/design__text_left.css);
+@import url(./blocks/design/__card/_s/design__card_s.css);
+@import url(./blocks/design/__line/_s/design__line_s.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__icons/header__icons.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__logo/_e/header__logo_e.css);
+@import url(./blocks/header/__logo/_m/header__logo_m.css);
+@import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__text/header__text.css);
+
+@import url(./blocks/hidden-title/hidden-title.css);
+@import url(./blocks/hidden-title/__text/hidden-title__text.css);
+
+@import url(./blocks/line/line.css);
+@import url(./blocks/line-hidden/line-hidden.css);
+@import url(./blocks/line-top/line-top.css);
+
+@import url(./blocks/lines/lines.css);
+@import url(./blocks/lines-header/lines-header.css);
+
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/red-line/red-line.css);
+
+@import url(./blocks/scanner/__feature/scanner__feature.css);
+@import url(./blocks/scanner/__features/scanner__features.css);
+@import url(./blocks/scanner/__icon/scanner__icon.css);
+@import url(./blocks/scanner/__info/scanner__info.css);
+@import url(./blocks/scanner/__phone/scanner__phone.css);
+@import url(./blocks/scanner/__text/scanner__text.css);
+@import url(./blocks/scanner/__title/_first/scanner__title_first.css);
+@import url(./blocks/scanner/__title/_second/scanner__title_second.css);
+
+@import url(./blocks/second-card/second-card.css);
+
+@import url(./blocks/title/title.css);
+@import url(./blocks/title/__text/title__text.css);
+
+@import url(./blocks/wrapper/wrapper.css);

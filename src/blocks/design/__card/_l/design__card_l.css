@@ -1,0 +1,15 @@
+.design__card_l {
+  padding: 0;
+}
+
+@media screen and (max-width: 970px) {
+  .design__card_l {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .design__card_l {
+    max-width: 142px;
+  }
+}

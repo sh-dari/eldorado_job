@@ -1,0 +1,9 @@
+.design__image_black {
+  max-width: 162px;
+}
+
+@media screen and (max-width: 970px) {
+  .design__image_black {
+    max-width: 265px;
+  }
+}

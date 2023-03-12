@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 970px) {
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 670px;
+    margin: 0 auto;
+    row-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .wrapper {
+    column-gap: 0;
+  }
+}

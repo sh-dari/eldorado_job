@@ -1,0 +1,12 @@
+.apps__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 685px) {
+  .apps__text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

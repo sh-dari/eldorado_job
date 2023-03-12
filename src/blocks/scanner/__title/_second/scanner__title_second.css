@@ -1,0 +1,9 @@
+.scanner__title_second {
+  display: none;
+}
+
+@media screen and (max-width: 970px) {
+  .scanner__title_second {
+    display: block;
+  }
+}

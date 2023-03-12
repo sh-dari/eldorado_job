@@ -1,0 +1,14 @@
+.title__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 50px;
+  margin: 35px auto;
+}
+
+@media screen and (max-width: 685px) {
+  .title__text {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

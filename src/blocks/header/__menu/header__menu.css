@@ -1,0 +1,13 @@
+.header__menu {
+  width: 32px;
+  height: 32px;
+  background-image: url(../../../images/menu.svg);
+  border: none;
+  background-color: transparent;
+  transition: opacity .3s ease-out;
+}
+
+.header__menu:hover {
+  opacity: .5;
+  cursor: pointer;
+}

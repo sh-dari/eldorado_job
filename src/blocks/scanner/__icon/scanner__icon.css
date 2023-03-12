@@ -1,0 +1,11 @@
+.scanner__icon {
+  max-width: 100px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (max-width: 685px) {
+  .scanner__icon {
+    max-width: 60px;
+  }
+}

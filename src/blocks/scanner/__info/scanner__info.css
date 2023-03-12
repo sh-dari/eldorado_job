@@ -1,0 +1,11 @@
+.scanner__info {
+  display: flex;
+  column-gap: 42px;
+}
+
+@media screen and (max-width: 685px) {
+  .scanner__info {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

@@ -1,0 +1,17 @@
+.design__image {
+  object-fit: contain;
+  object-position: center;
+  max-width: 222px;
+}
+
+@media screen and (max-width: 970px) {
+  .design__image {
+    max-width: 325px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .design__image {
+    max-width: 290px;
+  }
+}

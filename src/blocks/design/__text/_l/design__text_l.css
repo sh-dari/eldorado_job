@@ -1,0 +1,9 @@
+.design__text_l {
+  align-self: stretch;
+}
+
+@media screen and (max-width: 685px) {
+  .design__text_l {
+    max-width: 142px;
+  }
+}

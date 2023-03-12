@@ -1,0 +1,12 @@
+.header__logo_e {
+  width: 35px;
+  height: 35px;
+  background-image: url(../../../../images/Logo_e.svg);
+}
+
+@media screen and (max-width: 970px) {
+  .header__logo_e {
+    width: 25px;
+    height: 25px;
+  }
+}

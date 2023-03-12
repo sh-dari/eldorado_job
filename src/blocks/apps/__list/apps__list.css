@@ -1,0 +1,17 @@
+.apps__list {
+  margin: 0;
+  padding: 0 0 40px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 74px;
+}
+
+@media screen and (max-width: 685px) {
+  .apps__list {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 34px;
+  }
+}

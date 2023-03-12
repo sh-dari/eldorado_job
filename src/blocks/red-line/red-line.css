@@ -1,0 +1,10 @@
+.red-line {
+  border-bottom: 3px solid rgba(215, 14, 42, 1);
+  max-width: 207px;
+}
+
+@media screen and (max-width: 685px) {
+  .red-line {
+    display: none;
+  }
+}

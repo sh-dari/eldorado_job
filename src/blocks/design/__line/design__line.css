@@ -1,0 +1,16 @@
+.design__line {
+  width: 223px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 970px) {
+  .design__line {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .design__line {
+    width: 290px;
+  }
+}

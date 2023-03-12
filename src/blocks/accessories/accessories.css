@@ -1,0 +1,11 @@
+.accessories {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 685px) {
+  .accessories {
+    max-width: 290px;
+  }
+}

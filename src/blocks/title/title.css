@@ -1,0 +1,16 @@
+.title {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 970px) {
+  .title {
+    max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .title {
+    max-width: 290px;
+  }
+}

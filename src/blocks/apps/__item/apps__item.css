@@ -1,0 +1,17 @@
+.apps__item {
+  max-width: 303px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 685px) {
+  .apps__item {
+    flex-direction: row;
+    column-gap: 18px;
+  }
+
+  .apps__item:nth-child(3), .apps__item:nth-child(7) {
+    flex-direction: row-reverse;
+  }
+}

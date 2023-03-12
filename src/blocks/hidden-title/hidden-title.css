@@ -1,0 +1,12 @@
+.hidden-title {
+  display: none;
+  background-color: #efefef;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 685px) {
+  .hidden-title {
+    display: block;
+  }
+}

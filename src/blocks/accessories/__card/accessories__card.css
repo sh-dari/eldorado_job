@@ -1,0 +1,11 @@
+@media screen and (max-width: 970px) {
+  .accessories__card {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .accessories__card {
+    max-width: 290px;
+  }
+}

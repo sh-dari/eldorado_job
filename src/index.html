@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Тестовое задание">
+  <meta name="keywords" content="html, css">
+  <meta name="author" content="Дарья Шипилова">
+  <title>Eldorado</title>
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <div class="header__icons">
+        <a href="#" class="header__link">
+          <div class="header__logo header__logo_e"></div>
+        </a>
+        <a href="#" class="header__link">
+          <div class="header__logo header__logo_m"></div>
+        </a>
+        <p class="header__text">Название курса в одну строку</p>
+      </div>
+      <button type="button" class="header__menu"></button>
+    </header>
+    <div class="lines lines-header">
+      <div class="line"></div>
+      <div class="red-line"></div>
+      <div class="hidden-title">
+        <p class="hidden-title__text">Samsung Galaxy S10</p>
+      </div>
+    </div>
+    <main class="content">
+      <section class="title">
+        <h1 class="title__text">Еще больше возможностей</h1>
+      </section>
+      <section class="design line-top">
+        <h2 class="design__title block__title">Новый дизайн</h2>
+        <div class="design__cards">
+          <div class="design__card design__card_black">
+            <img class="design__image design__image_black" src="<%=require('./images/buy-now_banner_galaxy-s10.jpg')%>" alt="Телефон galaxy">
+            <div class="design__line design__line_black"></div>
+            <p class="design__text">
+              Абсолютно новый Infinity-O экран&nbsp;&mdash; на&nbsp;передней стороне смартфона
+              нет ничего, кроме огромного экрана и&nbsp;фронтальной камеры.
+            </p>
+          </div>
+          <div class="design__card design__card_white second-card">
+            <img class="design__image" src="<%=require('./images/phone2.jpg')%>" alt="Телефоны galaxy">
+            <div class="design__line design__line_white"></div>
+            <p class="design__text design__text_left">
+              Для любителей роскоши, модель S10+ будет выпускаться в&nbsp;керамическом корпусе
+              черного и&nbsp;белого цветов.
+            </p>
+          </div>
+          <div class="design__card design__card_l">
+            <img class="design__image design__image_icon" src="<%=require('./images/colours_s10.svg')%>" alt="Разноцветные круги">
+            <p class="design__text design__text_l">
+              Смартфоны доступны в&nbsp;4х&nbsp;стильных цветах: Перламутр, Аквамарин, Оникс
+              и&nbsp;Цитрус (для S10e).
+            </p>
+          </div>
+          <div class="design__card design__card_l">
+            <img class="design__image design__image_icon" src="<%=require('./images/gorilla_glass.svg')%>" alt="Иконка защитного стекла">
+            <p class="design__text design__text_l">
+              В&nbsp;моделях S10 и&nbsp;S10+ установлены защитные стекла нового поколения&nbsp;&mdash;
+              Gorilla Glass&nbsp;6.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="scanner line-top">
+        <h2 class="scanner__title block__title scanner__title_first">Сканер отпечатка в экране</h2>
+        <h2 class="scanner__title block__title scanner__title_second">Съемка видео</h2>
+        <div class="scanner__info">
+          <img class="scanner__phone" src="<%=require('./images/phone.jpg')%>" alt="Экран телефона">
+          <ul class="scanner__features">
+            <li class="scanner__feature">
+              <img class="scanner__icon" src="<%=require('./images/quality.svg')%>" alt="Качество">
+              <p class="scanner__text">
+                Отличное качество съемки новых поколение смартфонов Samsung позволит создать и&nbsp;смотреть
+                праздники, семейные торжества и&nbsp;памятные моменты на&nbsp;огромном экране, с&nbsp;яркими,
+                живыми цветами и&nbsp;прекрасной детализацией.
+              </p>
+            </li>
+            <li class="scanner__feature">
+              <img class="scanner__icon" src="<%=require('./images/stabilization.svg')%>" alt="Стабилизация">
+              <p class="scanner__text">
+                Дополнительная система стабилизации сделает видеоролики плавными и&nbsp;красивыми.
+              </p>
+            </li>
+            <li class="scanner__feature">
+              <img class="scanner__icon" src="<%=require('./images/low_photo.svg')%>" alt="Замедленная съемка">
+              <p class="scanner__text">
+                Сверхзамедленная съемка (960 кадров в&nbsp;секунду) теперь в&nbsp;2&nbsp;раза дольше. Камера
+                в&nbsp;S10 способна распознать самое стремительное движение, такое как языки пламени, брызги
+                воды, дым из&nbsp;под колес спорткара.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="accessories">
+        <h2 class="accessories__title block__title">Аксессуары</h2>
+        <div class="wrapper">
+          <div class="accessories__card design__card design__card_white">
+            <img class="accessories__image design__image" src="<%=require('./images/galaxy-s10_accessories_cases.jpg')%>" alt="Телефоны galaxy">
+            <div class="design__line design__line_white"></div>
+            <p class="accessories__text design__text design__text_left">
+              Обширный ассортимент чехлов лля каждой модели. Цветовая гамма, отличное качество, премиальные
+              материалы и&nbsp;дополнительные возможности призваны удовлетворить даже самый притязательный вкус.
+            </p>
+          </div>
+          <div class="accessories__card design__card design__card_white">
+            <img class="accessories__image design__image" src="<%=require('./images/galaxy-s10_accessories_power.jpg')%>" alt="Телефоны galaxy">
+            <div class="design__line design__line_white"></div>
+            <p class="accessories__text design__text design__text_left">
+              Беспроводная зарядная станция Duo Pad быстро заряжает одновременно два устройства,
+              одно из&nbsp;которых охлаждается.
+            </p>
+          </div>
+          <div class="accessories__card design__card design__card_white design__card_s">
+            <div class="lines">
+              <div class="accessories__line design__line design__line_white design__line_s"></div>
+              <div class="black-line"></div>
+            </div>
+            <p class="accessories__text design__text design__text_left">
+              Galaxy S10+&nbsp;в режиме Dex поддерживает широкоформатные мониторы.
+              Мощный смартфон превращается в&nbsp;мощный десктоп.
+            </p>
+          </div>
+          <div class="accessories__card design__card design__card_white design__card_s">
+            <div class="lines">
+              <div class="accessories__line design__line design__line_white design__line_s"></div>
+              <div class="black-line"></div>
+            </div>
+            <p class="accessories__text design__text design__text_left">
+              Смартфон S10 сразу укомплектован защитной пленкой.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="apps line-top">
+        <h2 class="apps__title block__title">Приложения и сервисы Samsung</h2>
+        <ul class="apps__list">
+          <li class="apps__item">
+            <img class="apps__icon" alt="Иконка приложения" src="<%=require('./images/Smart_Switch.svg')%>">
+            <p class="apps__text">
+              Благодаря приложению Smart Switch можно перенести информацию со&nbsp;старого смартфона на&nbsp;новый.
+            </p>
+          </li>
+          <div class="accessories__line design__line design__line_white line-hidden"></div>
+          <li class="apps__item">
+            <img class="apps__icon" alt="Иконка приложения" src="<%=require('./images/Samsung_Health.svg')%>">
+            <p class="apps__text">
+              Приложение Samsung Health помогает контролировать физическую активность и&nbsp;вести дневник питания.
+            </p>
+          </li>
+          <div class="accessories__line design__line design__line_white line-hidden"></div>
+          <li class="apps__item">
+            <img class="apps__icon" alt="Иконка приложения" src="<%=require('./images/Bixby.svg')%>">
+            <p class="apps__text">
+              Интеллектуальный помощник Bixby обеспечит быстрый доступ к&nbsp;переводчику, поиску в&nbsp;Интернете, покупкам и&nbsp;многому другому.
+            </p>
+          </li>
+          <div class="accessories__line design__line design__line_white line-hidden"></div>
+          <li class="apps__item">
+            <img class="apps__icon" alt="Иконка приложения" src="<%=require('./images/Samsung_pay.svg')%>">
+            <p class="apps__text">
+              Приложение Samsung Pay дает возможность оплачивать свои покупки при помощи смартфона.
+            </p>
+          </li>
+          <div class="accessories__line design__line design__line_white line-hidden"></div>
+          <li class="apps__item">
+            <img class="apps__icon" alt="Иконка приложения" src="<%=require('./images/SmartThings.svg')%>">
+            <p class="apps__text">
+              Благодаря приложению Smart Things можно управлять всеми смарт-устройствами дома.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
